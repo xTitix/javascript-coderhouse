@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carrito de compras de Robert's Bakery">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+     <!-- Barra de navegacion con Bootstrap-->
+     <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="./imagenes/Roberts_Bakery_Logo_PNG.png" alt="Logo de Roberts Bakery" class="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ms-auto">
+                  <li><a class="nav-link" aria-current="page" href="./index.html">Inicio</a></li>
+                  <li><a class="nav-link" href="./carrito.html">Carrito (<span id="totalCarrito">0</span>)</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Contenido del carrito -->
+    <div id="carritoProductos"></div>
+    <div class="total">
+    <h3>Total: $<span id="totalCarritoPrecio">0</span></h3>
+    <button id="vaciarCarrito">Vaciar Carrito</button>
+    <button id="finalizarCompra">Finalizar Compra</button>
+    </div>
+
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="seccion-footer1">
+            <h3>Contacto</h3>
+            <ul>
+                <li>Direccion: Avenida Siempreviva 742, Springfield</li>
+                <li>Teléfono: +54 11 6746-2396</li>
+                <li>Correo Electrónico: claudiaa.robert8@gmail.com</li>
+            </ul>
+        </div>
+        <div class="seccion-footer2">
+            <h3>Enlaces</h3>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./sobre_nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="./log_in.html">Log In</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./sobre_pasteles.html">Sobre Pasteles</a></li>
+            </ul>
+        </div>
+        <div class="seccion-footer3">
+            <h3>Nuestras Redes Sociales</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                <li><a href="https://wa.me/541167462396">Whatsapp</a></li>
+                <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./carrito.js"></script>
+</body>
+</html>
