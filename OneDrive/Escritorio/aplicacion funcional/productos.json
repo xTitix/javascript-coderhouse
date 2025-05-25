@@ -1,0 +1,14 @@
+[
+    { "id": "producto1", "nombre": "Brownie con frutillas", "precio": 15000, "imagen": "./imagenes/brownie.jpg" },
+    { "id": "producto2", "nombre": "Cheesecake de Frutos Rojos", "precio": 18000, "imagen": "./imagenes/chessecake.jpg" },
+    { "id": "producto3", "nombre": "Pastafrola", "precio": 10000, "imagen": "./imagenes/pasta-frola-jpg..jpg" },
+    { "id": "producto4", "nombre": "Red Velvet", "precio": 19000, "imagen": "./imagenes/red_velvet.jpg" },
+    { "id": "producto5", "nombre": "Tarta de Ricota", "precio": 12000, "imagen": "./imagenes/tarta_de_ricota.jpg" },
+    { "id": "producto6", "nombre": "Tarta Tofi", "precio": 13000, "imagen": "./imagenes/tarta_tofi.png" },
+    { "id": "producto7", "nombre": "Croissant", "precio": 2000, "imagen": "./imagenes/croissant.jpg" },
+    { "id": "producto8", "nombre": "Tarta de Frutillas", "precio": 15000, "imagen": "./imagenes/tarta-de-frutilla.jpg" },
+    { "id": "producto9", "nombre": "Macarons", "precio": 13000, "imagen": "./imagenes/macarons.jpg" },
+    { "id": "producto10", "nombre": "Lemon Pie", "precio": 17000, "imagen": "./imagenes/lemon-pie.jpg" },
+    { "id": "producto11", "nombre": "Tiramisu", "precio": 14000, "imagen": "./imagenes/tiramisu.jpg" },
+    { "id": "producto12", "nombre": "Torta Rogel", "precio": 16000, "imagen": "./imagenes/rogel.jpg" }
+  ]  

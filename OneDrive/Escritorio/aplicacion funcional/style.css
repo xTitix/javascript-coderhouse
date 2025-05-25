@@ -147,3 +147,23 @@ body {
     color: white;
     padding: 10px;
 }
+
+.pedidos-anteriores {
+  background-color: #fff6eb;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.pedidos-anteriores h3 {
+  color: #C2714F;
+  margin-bottom: 15px;
+}
+
+.pedido-item {
+  border: 1px solid #ecb06a;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
